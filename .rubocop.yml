@@ -1,0 +1,23 @@
+require:
+  - rubocop-rspec
+  - rubocop-faker
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/migrate/*
+
+############### Style ###############
+Style/Documentation:
+  Exclude:
+    - config/application.rb
+    - app/helpers/application_helper.rb
+    - app/models/application_record.rb
+
+############### Metrics ###############
+Metrics/BlockLength:
+  Exclude:
