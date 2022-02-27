@@ -2,6 +2,7 @@
 
 FactoryBot.define do
   factory :admin do
-    # code
+    email { Faker::Internet.unique.email }
+    password { Faker::Internet.password }
   end
 end
