@@ -1,3 +1,7 @@
 # frozen_string_literal: true
 
-FactoryBot.create(:admin, email: 'admin@example.com', password: 'password') if Rails.env.development?
+if Rails.env.development?
+  FactoryBot.create(:admin,
+                    email: Rails.application.credentials.dig(:default_admin, :email),
+                    password: Rails.application.credentials.dig(:default_admin, :password))
+end
