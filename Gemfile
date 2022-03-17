@@ -42,7 +42,7 @@ gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
 
 # Media content
-gem 'image_processing', '~> 1.12', '>= 1.12.1' # ?
+gem 'image_processing', '~> 1.12' # ?
 
 group :development, :test do
   gem 'awesome_print', '~> 1.9', '>= 1.9.2'
