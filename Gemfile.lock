@@ -198,7 +198,7 @@ GEM
       rails-i18n
       rainbow (>= 2.2.2, < 4.0)
       terminal-table (>= 1.5.1)
-    image_processing (1.12.1)
+    image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     importmap-rails (1.0.3)
@@ -467,7 +467,7 @@ DEPENDENCIES
   haml-rails (~> 2.0, >= 2.0.1)
   haml_lint (~> 0.37.1)
   i18n-tasks (~> 0.9.37)
-  image_processing (~> 1.12, >= 1.12.1)
+  image_processing (~> 1.12)
   importmap-rails
   lefthook (~> 0.7.7)
   listen (~> 3.3)
