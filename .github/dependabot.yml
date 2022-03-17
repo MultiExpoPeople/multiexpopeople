@@ -1,14 +1,24 @@
 version: 2
+
 updates:
-  package-ecosystem: "bundler"
-  directory: "/"
-  schedule:
-    interval: "monthly"
-  assignees:
-    - 'kirill-oleynik'
-  package-ecosystem: "npm"
-  directory: "/"
-  schedule:
-    interval: "monthly"
-  assignees:
-    - 'kirill-oleynik'
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependency"
+      - "need review"
+    target-branch: "develop"
+    reviewers:
+      - "kirill-oleynik"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependency"
+      - "need review"
+    target-branch: "develop"
+    reviewers:
+      - "kirill-oleynik"
