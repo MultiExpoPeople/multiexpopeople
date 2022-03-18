@@ -1,0 +1,18 @@
+name: main
+on:
+  push:
+    branches: [ develop, master ]
+  pull_request:
+    branches: [ develop, master ]
+
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Rubocop
+        run: |
+          bundle exec bundle install
+          bundle exec rubocop --parallel
