@@ -443,6 +443,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    yaml-lint (0.0.10)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -493,6 +494,7 @@ DEPENDENCIES
   tzinfo-data
   web-console (~> 4.2)
   webpacker (~> 5.0)
+  yaml-lint (~> 0.0.10)
 
 RUBY VERSION
    ruby 2.7.4p191
