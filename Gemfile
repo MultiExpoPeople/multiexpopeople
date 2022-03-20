@@ -62,7 +62,7 @@ group :development, :test do
   gem 'rubocop', '~> 1.25', '>= 1.25.1', require: false
   gem 'rubocop-faker', '~> 1.1', require: false
   gem 'rubocop-performance', '~> 1.13', '>= 1.13.2', require: false
-  gem 'rubocop-rails', '~> 2.13', '>= 2.13.2', require: false
+  gem 'rubocop-rails', '~> 2.14', require: false
   gem 'rubocop-rspec', '~> 2.9', require: false
 end
 
