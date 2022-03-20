@@ -55,7 +55,7 @@ group :development, :test do
   gem 'faker', '~> 2.19'
   gem 'fasterer', '~> 0.9.0'
   gem 'fuubar', '~> 2.5', '>= 2.5.1'
-  gem 'haml_lint', '~> 0.37.1', require: false
+  gem 'haml_lint', '~> 0.40.0', require: false
   gem 'lefthook', '~> 0.7.7'
   gem 'pry', '~> 0.14.1'
   gem 'rspec-rails', '~> 5.1'
