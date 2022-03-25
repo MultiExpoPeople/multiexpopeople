@@ -17,6 +17,7 @@ Style/Documentation:
     - config/application.rb
     - app/helpers/application_helper.rb
     - app/models/application_record.rb
+    - app/controllers/**
 
 ############### Metrics ###############
 Metrics/BlockLength:
