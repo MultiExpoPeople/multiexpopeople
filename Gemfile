@@ -59,7 +59,7 @@ group :development, :test do
   gem 'lefthook', '~> 0.7.7'
   gem 'pry', '~> 0.14.1'
   gem 'rspec-rails', '~> 5.1'
-  gem 'rubocop', '~> 1.25', '>= 1.25.1', require: false
+  gem 'rubocop', '~> 1.26', require: false
   gem 'rubocop-faker', '~> 1.1', require: false
   gem 'rubocop-performance', '~> 1.13', '>= 1.13.2', require: false
   gem 'rubocop-rails', '~> 2.14', require: false
