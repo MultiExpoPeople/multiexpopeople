@@ -49,7 +49,7 @@ group :development, :test do
   gem 'brakeman', '~> 5.2', '>= 5.2.1'
   gem 'bullet', '~> 7.0', '>= 7.0.1'
   gem 'bundler-audit', '~> 0.9.0.1'
-  gem 'bundler-leak', '~> 0.2.0'
+  gem 'bundler-leak', '~> 0.3.0'
   gem 'database_consistency', '~> 1.1', '>= 1.1.12', require: false
   gem 'factory_bot_rails', '~> 6.2'
   gem 'faker', '~> 2.19'
