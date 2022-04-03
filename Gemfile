@@ -7,7 +7,7 @@ ruby '2.7.4'
 
 # Basic stack
 gem 'activeadmin', '~> 2.10', '>= 2.10.1'
-gem 'pg', '~> 1.1'
+gem 'pg', '~> 1.3'
 gem 'puma', '~> 5.6', '>= 5.6.2'
 gem 'rails', '~> 6.1', '>= 6.1.4.6'
 # Use Redis adapter to run Action Cable in production
