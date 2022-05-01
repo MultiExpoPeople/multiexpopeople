@@ -46,7 +46,7 @@ gem 'image_processing', '~> 1.12' # ?
 
 group :development, :test do
   gem 'awesome_print', '~> 1.9', '>= 1.9.2'
-  gem 'brakeman', '~> 5.2', '>= 5.2.1'
+  gem 'brakeman', '~> 5.2'
   gem 'bullet', '~> 7.0', '>= 7.0.1'
   gem 'bundler-audit', '~> 0.9.0.1'
   gem 'bundler-leak', '~> 0.3.0'
