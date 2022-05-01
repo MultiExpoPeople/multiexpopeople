@@ -53,7 +53,7 @@ group :development, :test do
   gem 'database_consistency', '~> 1.1', '>= 1.1.12', require: false
   gem 'factory_bot_rails', '~> 6.2'
   gem 'faker', '~> 2.19'
-  gem 'fasterer', '~> 0.9.0'
+  gem 'fasterer', '~> 0.10.0'
   gem 'fuubar', '~> 2.5', '>= 2.5.1'
   gem 'haml_lint', '~> 0.40.0', require: false
   gem 'lefthook', '~> 0.7.7'
