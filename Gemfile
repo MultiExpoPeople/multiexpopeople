@@ -52,7 +52,7 @@ group :development, :test do
   gem 'bundler-leak', '~> 0.3.0'
   gem 'database_consistency', '~> 1.1', '>= 1.1.12', require: false
   gem 'factory_bot_rails', '~> 6.2'
-  gem 'faker', '~> 2.19'
+  gem 'faker', '~> 2.21'
   gem 'fasterer', '~> 0.9.0'
   gem 'fuubar', '~> 2.5', '>= 2.5.1'
   gem 'haml_lint', '~> 0.40.0', require: false
