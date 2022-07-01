@@ -78,7 +78,7 @@ group :test do
 end
 
 group :development do
-  gem 'i18n-tasks', '~> 1.0.5'
+  gem 'i18n-tasks', '~> 1.0.11'
   gem 'listen', '~> 3.3'
   gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
   gem 'web-console', '~> 4.2' # Middleware that displays speed badge for every html page
